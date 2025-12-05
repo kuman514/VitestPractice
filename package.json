@@ -1,0 +1,43 @@
+{
+  "name": "vitest-practice",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Vitest를 이용한 테스트 라이브러리를 효과적으로 적용해보기 위해 집중적으로 연마하는 레포지토리.",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite --open --host",
+    "test": "vitest",
+    "build": "yarn lint && yarn test --watch=false && vite build",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuman514/VitestPractice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kuman514/VitestPractice/issues"
+  },
+  "homepage": "https://github.com/kuman514/VitestPractice#readme",
+  "dependencies": {
+    "@eslint/js": "^9.39.1",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/jsdom": "^27.0.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "jsdom": "^27.2.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.1",
+    "vite": "^7.2.6",
+    "vitest": "^4.0.15"
+  }
+}
