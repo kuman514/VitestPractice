@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-describe('Sample test', () => {
+describe('Using describe, it, and expect', () => {
   it('should say that 1 + 2 === 3', () => {
     expect(1 + 2).toStrictEqual(3);
   });

@@ -6,9 +6,7 @@
   "description": "Vitest를 이용한 테스트 라이브러리를 효과적으로 적용해보기 위해 집중적으로 연마하는 레포지토리.",
   "main": "index.js",
   "scripts": {
-    "start": "vite --open --host",
-    "test": "vitest",
-    "build": "yarn lint && yarn test --watch=false && vite build",
+    "test": "yarn lint && vitest --watch=false",
     "lint": "eslint ."
   },
   "repository": {
